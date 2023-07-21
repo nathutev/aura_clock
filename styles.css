@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url('SpaceGrotesk-SemiBold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("green.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'SpaceGrotesk', sans-serif;
+  letter-spacing: 4px;
+}
+
+.time {
+  font-size: 128px;
+  color: white;
+  text-align: center;
+}
